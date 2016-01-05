@@ -7,10 +7,10 @@ Database::Database() {
   cout << endl << "Database::Database()" << endl;
 
   //Store default database parameters
-  server = "mysql.ecn.purdue.edu";
-  user = "epics_dining";
-  password = "raspberry";
-  database = "epics_dining";
+  server = "";
+  user = "";
+  password = "";
+  database = "";
 
   //Connect to MySQL database
   cout << "mysql_init" << endl;
